@@ -1,0 +1,19 @@
+---
+title: "surnames_cleaning"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{surnames_cleaning}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(surnamesCleaning)
+```
